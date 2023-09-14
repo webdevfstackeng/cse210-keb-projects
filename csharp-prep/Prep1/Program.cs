@@ -16,7 +16,7 @@ class Program
         // Store the lasst name in variable lastName.
         string lastName = Console.ReadLine();
 
-        Console.WriteLine(); //Leave a space.
+        Console.WriteLine(); //Leave some space.
 
         // Display the results on the console.
         Console.WriteLine($"Your name is {lastName}, {firstName} {lastName}.");
