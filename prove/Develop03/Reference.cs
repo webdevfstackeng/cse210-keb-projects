@@ -18,13 +18,20 @@ public class Reference
     //constractor to set reference for a scripture with one verse
     public Reference(string book, int chapter, int verse)
     {
-         
+        _book = book;
+        _chapter = chapter;
+        _verse = verse;
+        _reference = ($"{_book} {_chapter}:{_verse}");
     }
 
     // The setter constractor to set reference for a scripture with more than one verse
     public Reference(string book, int chapter, int verse, int verseEnd)
     {
-         
+        _book = book;
+        _chapter = chapter;
+        _verse = verse;
+        _verseEnd = verseEnd;
+        _reference = ($"{_book} {_chapter}:{_verse}:{_verseEnd}");
     }
 
      // Method to return the string reference
