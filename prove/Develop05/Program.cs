@@ -1,9 +1,11 @@
 using System;
 
-class Program
+public class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop05 World!");
+        int _score = 0;
+        GoalManager start = new GoalManager(_score);
+        start.Start();
     }
 }

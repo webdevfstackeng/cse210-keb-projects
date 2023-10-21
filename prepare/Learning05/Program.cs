@@ -17,7 +17,7 @@ class Program
         Circle cs = new Circle("Silver", 7);
         shapes.Add(cs);
 
-        // A loop for calling the GetColor() and GetArea() methods to get shape colors and compute areas.
+        // A loop for calling the GetColor() and GetArea() methods to get shapes color and compute areas.
         foreach(Shape shape in shapes)
         {
             string color = shape.GetColor();
